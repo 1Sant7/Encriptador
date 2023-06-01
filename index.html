@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <title>Encriptador de Texto</title>
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img class="logo" src="images/Logo1x.png" alt="Logo de Alura">
+            </div>
+        </header>
+
+        <main>
+            <section class="seccion1">
+                <div class="seccion_ingrese_texto">
+                    <textarea placeholder="Ingrese el texto aquí" class="ingrese_texto"></textarea>
+                </div>
+            </section>
+
+            <section class="seccion2">
+                <div class="cuadro_munieco">
+                    <img src="images/Muñeco1.png" alt="Muñeco buscando">
+                </div>
+                
+                <div class="texto_munieco">
+                    <h3>Ningún mensaje fue <br> encontrado :0</h3>
+                    <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+                </div>
+
+                <div class="cuadro_muñeco_copiar">
+                    <input type="button" class="btn_copiar" value="Copiar">
+                </div>
+
+                <div class="cuadro_muñeco_resultado">
+                    <p class="texto_resultado"></p>
+                </div>
+            </section>
+
+            <section class="cont_botones">
+                <input type="submit" value="Encriptar" class="boton_encriptar">
+                <input type="submit" value="Desencriptar" class="boton_desencriptar">
+            </section>
+            
+            <section class="alerta">
+                <img src="images/alerta.svg" alt="alerta">
+                <p>Sólo letras minúsculas y sin acentos</p>
+            </section>  
+        </main>
+
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
